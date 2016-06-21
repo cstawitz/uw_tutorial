@@ -18,6 +18,7 @@ plot(1:10, 10:1)
 dev.off()
 ```
 
+Print some numbers
 ```{r}
 a <- 42
 A <- a * 2  # R is case sensitive
@@ -29,6 +30,7 @@ if(A>a) # true, 84 > 42
 } 
 ```
 
+Number guessing game code!
 ```{r}
 readinteger <- function()
 { 
