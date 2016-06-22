@@ -1,3 +1,3 @@
 pdf("SimplePlot.pdf")
-plot(1:10, 10:1)
+plot(1:100, 100:1)
 dev.off()
