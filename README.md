@@ -1,6 +1,6 @@
 # uw_tutorial
 ## About
-This is a tutorial for students at UW SAFS to learn the basics of Github. We're using this repository to test out collaborative aspects of Git.
+This is a tutorial for students at UW QERM to learn the basics of Github. We're using this repository to test out collaborative aspects of Git.
 
 ##R code examples
 This section contains a bunch of R code chunks you may copy in to your R files to test out Git.
