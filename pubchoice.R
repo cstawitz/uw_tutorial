@@ -7,7 +7,7 @@ pubchoice <- function(rainlimit=0.05,lightlimit=40,minutes=10){
     minutes <- maxminutes
     cat(" It must be shortly after midnight UTC, so you only get",minutes,"minutes of data.\n")
   }
-  dat <- read.table(file,skip=skip,nrows=minutes)
+  dat <- read.table(file,skip=skip,nrows=minutes, fill=TRUE)
   rain <- sum(dat$V7)
   radiation <- round(mean(dat$V8),1)
   wet <- rain > rainlimit
